@@ -1,7 +1,7 @@
 #import "XMPPParser.h"
 #import "XMPPLogging.h"
-#import <libxml/parser.h>
-#import <libxml/parserInternals.h>
+#import "parser.h"
+#import "parserInternals.h"
 
 #if TARGET_OS_IPHONE
   #import "DDXMLPrivate.h"
